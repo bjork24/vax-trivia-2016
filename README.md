@@ -1,6 +1,6 @@
 # Dan's added features
 
-TKKT
+1. Hitting the `return` key will play any audio objects on the current slide
 
 ----
 
