@@ -1,0 +1,20 @@
+.intro  {
+  .wrap {
+    background: rgba(0,0,0,0.6);
+    display: inline-block;
+    padding: 0 30px;
+  }
+  h1 {
+    font-size: 5em !important;
+  }
+  h2 {
+    font-size: 2.5em !important;
+    margin-top: -60px !important;
+    color: #FF3E96 !important;
+    text-shadow:
+      0 1px #DC143C,
+      0 2px #DC143C,
+      0 3px #DC143C,
+      0 4px #DC143C !important
+  }
+}
