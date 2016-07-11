@@ -29,15 +29,38 @@
 			<div class="slides">
 
 				<!-- Intro slide -->
-	      <section data-background="assets/img/team.jpg" data-state="intro">
+	      <section data-background="assets/team-mirrored.jpg" data-state="intro">
 	      	<div class="wrap">
 	        	<h1>VAX TRIVIA 2016</h1>
 	        	<h2>Modern Trivia Stack</h3>
 	        </div>
 	      </section>
 
-				<!-- ROUND 1 QUESTIONS -->
-				<section>Hello</section>
+				<!-- ROUND 2 QUESTIONS -->
+				<section data-background="assets/2-hamilton/bg.jpg">
+
+					<section data-state="hamilton-intro">
+						<h1>ROUND 2</h1>
+						<audio id="hamilton-intro" src="assets/2-hamilton/intro.mp3" />	
+					</section>
+
+					<section>
+						<h2>Blah blah blha</h2>
+					</section>
+
+					<section>
+						<h2>Blah blah blha</h2>
+					</section>
+
+					<section>
+						<h2>Blah blah blha</h2>
+					</section>
+
+					<section>
+						<h2>Blah blah blha</h2>
+					</section>
+					
+				</section>
 
 			</div>
 
@@ -54,10 +77,9 @@
 				progress: false,
 				history: true,
 				center: true,
-				width: 1000,
-				height: 800,
-				minScale: 1,
-				maxScale: 2,
+				minScale: 0.2,
+				maxScale: 3,
+				margin: 0,
 
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
 
@@ -71,6 +93,27 @@
 					{ src: 'plugin/notes/notes.js', async: true }
 				]
 			});
+
+			Reveal.configure({
+			  keyboard: {
+			    13: function() {
+						var slide = document.querySelector('section.present:not(.stack)');
+						var audio = slide.querySelector('audio');
+						if (audio) {
+							audio.currentTime = 0;
+							audio.play();
+						} else {
+							return;
+						}
+			    }
+			  }
+			});
+
+			Reveal.addEventListener( 'hamilton-intro', function() {
+				var intro = document.getElementById('hamilton-intro');
+				intro.currentTime = 0;
+    		intro.play();
+			}, false );
 
 		</script>
 
