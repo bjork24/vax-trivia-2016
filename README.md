@@ -1,6 +1,9 @@
 # Dan's added features
 
-1. Hitting the `return` key will play any audio objects on the current slide
+1. Hitting the `return` key will play any media objects on the current slide
+2. Store question/answer text in one place (`js/trivia.js`) so you don't have to copy paste in HTML
+3. Localized the Google fonts because of shitty internet
+4. Hide the cursor by default
 
 ----
 

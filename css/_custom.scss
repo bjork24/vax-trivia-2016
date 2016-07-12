@@ -1,18 +1,53 @@
+html {
+  // cursor: none !important;
+}
+
 h1 {
   font-size: 5em !important;
 }
 
+// Questions
+h3 {}
+
+// Answers
+h4 {
+  font-size: 1.25em !important;
+  margin-top: .5em !important;
+  font-style: italic !important;
+}
+
+// Question # banner
+h6 {
+  $color: #FF3E96;
+  $shadow: #0FF;
+  font-size: 1em !important;
+  background: rgba($shadow, 0.75);
+  color: $color !important;
+  display: inline-block;
+  padding: 10px 20px 5px !important;
+  text-shadow: 2px 2px #222 !important;
+}
+
+.wrap {
+  background: rgba(#000, 0.6);
+  display: inline-block;
+  padding: 20px 30px 0 !important;
+}
+
+video {
+  height: 85vh !important;
+}
+
 .intro  {
   .wrap {
-    background: rgba(0,0,0,0.6);
-    display: inline-block;
-    padding: 0 30px;
+    padding: 0 30px !important;
   }
   h2 {
-    $shadow: darken(#FF3E96, 40%);
+    $color: #FF3E96;
+    $shadow: darken($color, 40%);
     font-size: 2.5em !important;
     margin-top: -60px !important;
-    color: #FF3E96 !important;
+    color: $color !important;
     text-shadow:
       0 1px $shadow,
       0 2px $shadow,
