@@ -60,7 +60,20 @@ video {
   }
 }
 
-.jelly .wrap {
-  padding-bottom: 25px !important;
-  text-transform: uppercase;
+.jelly {
+  .wrap {
+    padding-bottom: 25px !important;
+    text-transform: uppercase;
+  }
+}
+
+.escalator {
+  ol {
+    width: 60vw !important;
+    text-transform: uppercase;
+    font-style: italic;
+    li {
+      text-align: center;
+    }
+  }
 }

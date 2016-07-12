@@ -83,6 +83,66 @@ const trivia = {
     `Justin Bieber - Get <dfn>Used</dfn> To It<br/>
       Madonna - This <dfn>Used</dfn> To Be My Playground<br/>
       Gotye - Somebody That I <dfn>Used</dfn> To Know`
+  ],
+
+  'escalator': [
+    {
+      'q': `In Star Wars, what does the <dfn>TIE</dfn> in TIE Fighter stand for?`,
+      'a': `Twin Ion Engine`
+    },
+    {
+      'q': `What were the names of the two groups that the munchkin kids “represented” to Dorothy?`,
+      'a': `Lullaby League & Lollypop Guild`
+    },
+    {
+      'q': `What are the names of the Powerpuff Girls?`,
+      'a': `Blossom, Bubbles, & Buttercup`
+    },
+    {
+      'q': `What are the four houses of Hogwarts?`,
+      'a': `<li>Ravenclaw</li>
+        <li>Hufflepuff</li>
+        <li>Gryffindor</li>
+        <li>Slytherin</li>`
+    },
+    {
+      'q': `Name the five (pre-break-up) members of One Direction (first and last name)`,
+      'a': `<li>Harry Styles</li>
+        <li>Niall Horan</li>
+        <li>Liam Payne</li>
+        <li>Louis Tomlinson</li>
+        <li>Zayn Malik</li>`
+    },
+    {
+      'q': `Name the six Tom Hanks movies where part, or all, of his character’s name (meaning first or last name or both) appears in the title (For example, his seventh one is coming out in September, “Sully”)`,
+      'a': `<li>Turner & Hooch</li>
+        <li>Joe Versus the Volcano</li>
+        <li>Forrest Gump</li>
+        <li>Charlie Wilson’s War</li>
+        <li>Larry Crowne</li>
+        <li>Captain Phillips</li>`
+    },
+    {
+      'q': `List the seven major league teams that call Chicago home (MLB, NBA, NFL, MLS, NHL, WNBA)`,
+      'a': `<li>Cubs (MLB)</li>
+        <li>White Sox (MLB)</li>
+        <li>Bulls (NBA)</li>
+        <li>Bears (NFL)</li>
+        <li>Blackhawks (NHL)</li>
+        <li>Fire (MLS)</li>
+        <li>Sky (WNBA)</li>`
+    },
+    {
+      'q': `Name the eight books in Stephen King’s “The Dark Tower” series`,
+      'a': `<li>The Gunslinger (1982)</li>
+        <li>The Drawing of the Three (1987)</li>
+        <li>The Waste Lands (1991)</li>
+        <li>Wizard and Glass (1997)</li>
+        <li>Wolves of the Calla (2003)</li>
+        <li>Song of Susannah (2004)</li>
+        <li>The Dark Tower (2004)</li>
+        <li>The Wind Through the Keyhole (2012)</li>`
+    }
   ]
 
 }
