@@ -1,4 +1,5 @@
 const trivia = {
+
   'hamilton': [
     {
       'q': 'At this year’s Tony Awards, Hamilton set a record for most nominations with a total of 16. What two musicals, from 2001 and 2009, were the previous record holders with 15 nominations each?',
@@ -33,7 +34,7 @@ const trivia = {
       'a': 'Battle/Siege of Yorktown (aka German Battle)'
     },
     {
-      'q': 'Philipa Soo, who portrayed Eliza Hamilton in the original cast, is set to star in a new Broadway play based on what 2001 French film that still holds the record for highest-grossing French-language film ever released in the United States?',
+      'q': 'Philipa Soo, who portrayed Eliza Hamilton in the original cast, is set to star in a new Broadway play based on what 2001 romantic comedy that still holds the record for highest-grossing French-language film ever released in the United States?',
       'a': 'Amélie'
     },
     {
@@ -41,8 +42,8 @@ const trivia = {
       'a': 'Ron Chernow'
     }
   ],
-  'songs': [
 
+  'songs': [
     `Fetty Wap - Trap <dfn>Queen</dfn><br/>
       Abba - Dancing <dfn>Queen</dfn><br/>
       Billy Ocean - Caribbean <dfn>Queen</dfn>`,
@@ -82,8 +83,8 @@ const trivia = {
     `Justin Bieber - Get <dfn>Used</dfn> To It<br/>
       Madonna - This <dfn>Used</dfn> To Be My Playground<br/>
       Gotye - Somebody That I <dfn>Used</dfn> To Know`
-
   ]
+
 }
 
 document.querySelectorAll('[data-trivia]').forEach(function (el, i) {
