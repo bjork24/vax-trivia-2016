@@ -1339,6 +1339,9 @@ h6 {
   padding: 10px 20px 5px !important;
   text-shadow: 2px 2px #222 !important; }
 
+dfn {
+  color: #FF3E96; }
+
 .wrap {
   background: rgba(0, 0, 0, 0.6);
   display: inline-block;

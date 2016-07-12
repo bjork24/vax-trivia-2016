@@ -1,3 +1,6 @@
+$hot-pink: #FF3E96;
+$hot-blue: #0FF;
+
 html {
   // cursor: none !important;
 }
@@ -18,14 +21,16 @@ h4 {
 
 // Question # banner
 h6 {
-  $color: #FF3E96;
-  $shadow: #0FF;
   font-size: 1em !important;
-  background: rgba($shadow, 0.75);
-  color: $color !important;
+  background: rgba($hot-blue, 0.75);
+  color: $hot-pink !important;
   display: inline-block;
   padding: 10px 20px 5px !important;
   text-shadow: 2px 2px #222 !important;
+}
+
+dfn {
+  color: $hot-pink;
 }
 
 .wrap {
@@ -43,11 +48,10 @@ video {
     padding: 0 30px !important;
   }
   h2 {
-    $color: #FF3E96;
-    $shadow: darken($color, 40%);
+    $shadow: darken($hot-pink, 40%);
     font-size: 2.5em !important;
     margin-top: -60px !important;
-    color: $color !important;
+    color: $hot-pink !important;
     text-shadow:
       0 1px $shadow,
       0 2px $shadow,

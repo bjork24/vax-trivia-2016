@@ -40,10 +40,53 @@ const trivia = {
       'q': 'According to LMM, Hamilton the musical was inspired by a book he picked up at the airport while on vacation. The title was “Alexander Hamilton,” a 2004 biography penned by what writer/journalist/historian who would later become the historical consultant for the musical?',
       'a': 'Ron Chernow'
     }
+  ],
+  'songs': [
+
+    `Fetty Wap - Trap <dfn>Queen</dfn><br/>
+      Abba - Dancing <dfn>Queen</dfn><br/>
+      Billy Ocean - Caribbean <dfn>Queen</dfn>`,
+
+    `Beyonce - Run the <dfn>World</dfn><br/>
+      Tears for Fears - Everybody Wants to Rule the <dfn>World</dfn><br/>
+      Imagine Dragons - On Top of the <dfn>World</dfn>`,
+
+    `Sublime - Caress Me <dfn>Down</dfn><br/>
+      Europe - The Final Count<dfn>down</dfn><br/>
+      Macklemore - <dfn>Down</dfn>town`,
+
+    `Sheryl Crow - The First Cut Is the <dfn>Deep</dfn>est<br/>
+      Savage Garden - Truly Madly <dfn>Deep</dfn>ly<br/>
+      Adele - Rolling in the <dfn>Deep</dfn>`,
+
+    `Justin Timberlake - Can’t <dfn>Stop</dfn> the Feeling<br/>
+      Miley Cyrus - We Can't <dfn>Stop</dfn><br/>
+      Journey - Don't <dfn>Stop</dfn> Believin'`,
+
+    `White Zombie - More <dfn>Human</dfn> Than <dfn>Human</dfn><br/>
+      Bjork - <dfn>Human</dfn> Behaviour<br/>
+      Bruce Springsteen - <dfn>Human</dfn> Touch`,
+
+    `Bachman Turner Overdrive - Taking <dfn>Care</dfn> of Business<br/>
+      George Michael - <dfn>Care</dfn>less Whisper<br/>
+      Drake - Take <dfn>Care</dfn>`,
+
+    `Red Hot Chili Peppers - Give It <dfn>Away</dfn><br/>
+      Genesis - Throwing It All <dfn>Away</dfn><br/>
+      Carrie Underwood - Blown <dfn>Away</dfn>`,
+
+    `Laura Branigan - Self <dfn>Control</dfn><br/>
+      Missy Elliott - Lose <dfn>Control</dfn><br/>
+      Eric Carmen - Make Me Lose <dfn>Control</dfn>`,
+
+    `Justin Bieber - Get <dfn>Used</dfn> To It<br/>
+      Madonna - This <dfn>Used</dfn> To Be My Playground<br/>
+      Gotye - Somebody That I <dfn>Used</dfn> To Know`
+
   ]
 }
 
 document.querySelectorAll('[data-trivia]').forEach(function (el, i) {
   const path = el.dataset.trivia;
-  el.textContent = eval(`trivia.${path}`);
+  el.innerHTML = eval(`trivia.${path}`);
 });
