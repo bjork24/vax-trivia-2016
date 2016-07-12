@@ -36,12 +36,18 @@
 	        </div>
 	      </section>
 
+				<section data-background="assets/0-interludes/bg2.jpg">
+					<h1>Scoring</h1>
+					<h2>Musical interlude</h2>
+					<audio src="assets/0-interludes/chicago-bound.mp3" />	
+				</section>
+
 				<!-- ROUND 2 QUESTIONS -->
 				<section data-background="assets/2-hamilton/bg.jpg">
 
-					<section data-state="hamilton-intro">
+					<section data-state="audio-autoplay">
 						<h1>ROUND 2</h1>
-						<audio id="hamilton-intro" src="assets/2-hamilton/intro.mp3" />	
+						<audio src="assets/2-hamilton/intro.mp3" />	
 					</section>
 
 					<section>
@@ -61,6 +67,39 @@
 					</section>
 					
 				</section>
+				<!-- END ROUND 2 -->
+
+				<section data-background="assets/0-interludes/bg1.jpg">
+					<h1>Scoring</h1>
+					<h2>Musical interlude</h2>
+					<audio src="assets/0-interludes/born-in-chicago.mp3" />	
+				</section>
+
+				<!-- ROUND 4 WORD SONGS -->
+				<section data-background="assets/4-word-songs/bg.jpg">
+
+					<section>
+						<h1>Group 1</h1>
+						<audio src="assets/4-word-songs/1.mp3"></audio>
+					</section>
+
+					<section>
+						<h1>Group 2</h1>
+						<audio src="assets/4-word-songs/2.mp3"></audio>
+					</section>
+
+					<section>
+						<h1>Group 3</h1>
+						<audio src="assets/4-word-songs/3.mp3"></audio>
+					</section>
+
+					<section>
+						<h1>Group 4</h1>
+						<audio src="assets/4-word-songs/4.mp3"></audio>
+					</section>
+
+				</section>
+				
 
 			</div>
 
@@ -94,26 +133,27 @@
 				]
 			});
 
+			function audioAutoplay() {
+				console.log('Auto play');
+				var slide = document.querySelector('section.present:not(.stack)');
+				console.log(slide);
+				var audio = slide.querySelector('audio');
+				console.log(audio);
+				if (audio) {
+					audio.currentTime = 0;
+					audio.play();
+				} else {
+					return;
+				}
+			}
+
 			Reveal.configure({
 			  keyboard: {
-			    13: function() {
-						var slide = document.querySelector('section.present:not(.stack)');
-						var audio = slide.querySelector('audio');
-						if (audio) {
-							audio.currentTime = 0;
-							audio.play();
-						} else {
-							return;
-						}
-			    }
+			    13: audioAutoplay
 			  }
 			});
 
-			Reveal.addEventListener( 'hamilton-intro', function() {
-				var intro = document.getElementById('hamilton-intro');
-				intro.currentTime = 0;
-    		intro.play();
-			}, false );
+			Reveal.addEventListener( 'audio-autoplay', audioAutoplay, false );
 
 		</script>
 
