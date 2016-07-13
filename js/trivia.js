@@ -1,5 +1,48 @@
 const trivia = {
 
+  'chicago': [
+    {
+      'q': `The Chicago River is the only river in the world that does what?`,
+      'a': `Flows backwards`
+    },
+    {
+      'q': `Demi Moore's ex-husband <hr/> Second-tallest building in the :usa:`,
+      'a': `Bruce Willis Towers`
+    },
+    {
+      'q': `Whose cow, as legend claims, kicked over a lantern and started the Great Chicago Fire of 1871?`,
+      'a': `Mrs. O'Leary`
+    },
+    {
+      'q': `1959 Hitchcock film that was added to the National Film Registry for being "culturally, historically, or aesthetically significant" <hr/> Chicago-based university known as one of the best journalism schools in the US`,
+      'a': `North by Northwestern`
+    },
+    {
+      'q': `Chicago’s name is derived from the Native American word “shikaakwa,” which refers to a wild variety of what vegetable?`,
+      'a': `Onion`
+    },
+    {
+      'q': `She had her own daytime talk show at the age of 24, making her the youngest host in history <hr/> That giant body of water over there (point east)`,
+      'a': `Ricki Lake Michigan`
+    },
+    {
+      'q': `In 1926, thirty years before construction began on the nation’s first Interstate, intrepid motorists could take the famous “Mother Road,” Route 66, from its starting point in Chicago all the way to its terminus in what city?`,
+      'a': `Santa Monica, CA`
+    },
+    {
+      'q': `Within the US Army, it's a high honor to serve as Sentinel at this famous Arlington Nation Cemetary grave <hr/> Home of da bears`,
+      'a': `Tomb of the Unknown Soldier Field`
+    },
+    {
+      'q': `On August 8, 2004, which band's tour bus dumped their septic system while crossing the Kinzie Street bridge, covering 100 people (who happened to be on an architectural boat tour) in poop?`,
+      'a': `Dave Matthews Band`
+    },
+    {
+      'q': `Name of the big shiny bean in Millenium Park <hr/> Hardware manufactur that shipped computers in boxes patterned with cow spots`,
+      'a': `Cloud Gateway`
+    }
+  ],
+
   'hamilton': [
     {
       'q': 'At this year’s Tony Awards, Hamilton set a record for most nominations with a total of 16. What two musicals, from 2001 and 2009, were the previous record holders with 15 nominations each?',
@@ -31,7 +74,7 @@ const trivia = {
     },
     {
       'q': 'Hamilton served as George Washington’s Aides-de-Camp for much of the Revolutionary War, until 1781 when he was given a command and allowed to fight in what battle that ultimately culminated in the end of the war?',
-      'a': 'Battle/Siege of Yorktown (aka German Battle)'
+      'a': 'Battle of Yorktown'
     },
     {
       'q': 'Philipa Soo, who portrayed Eliza Hamilton in the original cast, is set to star in a new Broadway play based on what 2001 romantic comedy that still holds the record for highest-grossing French-language film ever released in the United States?',
@@ -83,6 +126,49 @@ const trivia = {
     `Justin Bieber - Get <dfn>Used</dfn> To It<br/>
       Madonna - This <dfn>Used</dfn> To Be My Playground<br/>
       Gotye - Somebody That I <dfn>Used</dfn> To Know`
+  ],
+
+  'vox': [
+    {
+      'q': ``,
+      'a': ``
+    },
+    {
+      'q': ``,
+      'a': ``
+    },
+    {
+      'q': ``,
+      'a': ``
+    },
+    {
+      'q': ``,
+      'a': ``
+    },
+    {
+      'q': ``,
+      'a': ``
+    },
+    {
+      'q': ``,
+      'a': ``
+    },
+    {
+      'q': ``,
+      'a': ``
+    },
+    {
+      'q': ``,
+      'a': ``
+    },
+    {
+      'q': ``,
+      'a': ``
+    },
+    {
+      'q': ``,
+      'a': ``
+    }
   ],
 
   'escalator': [
