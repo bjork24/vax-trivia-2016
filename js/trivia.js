@@ -30,7 +30,7 @@ const trivia = {
       'a': `Santa Monica, CA`
     },
     {
-      'q': `Within the US Army, it's a high honor to serve as Sentinel at this famous Arlington Nation Cemetary grave <hr/> Home of da bears`,
+      'q': `Within the US Army, it's a high honor to serve as Sentinel at this famous Arlington National Cemetery grave <hr/> Home of da bears`,
       'a': `Tomb of the Unknown Soldier Field`
     },
     {
@@ -38,7 +38,7 @@ const trivia = {
       'a': `Dave Matthews Band`
     },
     {
-      'q': `Name of the big shiny bean in Millenium Park <hr/> Hardware manufactur that shipped computers in boxes patterned with cow spots`,
+      'q': `Name of the big shiny bean in Millennium Park <hr/> Hardware manufacturer that shipped computers in boxes patterned with cow spots`,
       'a': `Cloud Gateway`
     }
   ],
@@ -66,7 +66,7 @@ const trivia = {
     },
     {
       'q': '“10 Duel Commandments” is a direct homage to “10 Crack Commandments,” a song that appeared on what rapper’s posthumously-released album in 1997?',
-      'a': 'Notorious B.I.G. / Biggie Smalls'
+      'a': 'Notorious B.I.G.'
     },
     {
       'q': 'Prior to Hamilton, LMM could sometimes be seen spitting rhymes on what PBS children’s show that ran from 2009 to 2013?',
@@ -130,44 +130,44 @@ const trivia = {
 
   'vox': [
     {
-      'q': ``,
-      'a': ``
+      'q': `Which two product team members started VAX?`,
+      'a': `Clif Reeder and Niv Shah`
     },
     {
-      'q': ``,
-      'a': ``
+      'q': `Vox Creative took home the award for “Best Video Ad” at this year’s Digiday Video Awards. The winning ad featured a blind taste test for which casual dining restaurant?`,
+      'a': `Applebee’s`
     },
     {
-      'q': ``,
-      'a': ``
+      'q': `Despite winning the MMA Journalist of the Year award, which reporter for Vox’s MMA Fighting was given a lifetime ban by the UFC in early June (which was lifted less than a week later)?`,
+      'a': `Ariel Helwani`
     },
     {
-      'q': ``,
-      'a': ``
+      'q': `Vox Entertainment and Curbed is partnering with the FYI channel to produce a new TV series focused on what kind of house?`,
+      'a': `Pre-fab houses`
     },
     {
-      'q': ``,
-      'a': ``
+      'q': `Where can you find a baby kayak?`,
+      'a': `Polygon features (ending mark)`
     },
     {
-      'q': ``,
-      'a': ``
+      'q': `Which Vox Media brand won “Best Use of Multimedia in Storytelling” at this year’s Digiday Publishing Awards? (Bonus: what was the topic of the winning piece?)`,
+      'a': `The Verge (bonus: Apple Watch Review)`
     },
     {
-      'q': ``,
-      'a': ``
+      'q': `According to our team page, what’s the most common letter for a product team member’s first name to start with (hint: it happens 17 times)?`,
+      'a': `J (J = 17, C = 11, M = 9)`
     },
     {
-      'q': ``,
-      'a': ``
+      'q': `What was the name of the virtual monetary system that suffered from hyperinflation after Clif gave himself 9 tredecillion (that’s a 9 followed by 42 nines) units?`,
+      'a': `cfbux`
     },
     {
-      'q': ``,
-      'a': ``
+      'q': `Why is Tiger Room called Tiger Room?`,
+      'a': `Anything about a beaded curtain with a tiger on it`
     },
     {
-      'q': ``,
-      'a': ``
+      'q': `SBN was born in Chorus, our other brands simply adopted it. List the year each of our SEVEN non-SBN brands launched on Chorus`,
+      'a': `Verge (11) Poly (12) Vox (14) Eater (14)<br/>Racked (15) Curbed (16) Recode (16)`
     }
   ],
 

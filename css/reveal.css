@@ -1359,13 +1359,15 @@ video {
   color: #FF3E96 !important;
   text-shadow: 0 1px #710034, 0 2px #710034, 0 3px #710034, 0 4px #710034 !important; }
 
-.chicago h6 {
+.chicago h6,
+.vox h6 {
   margin-bottom: 1.5em !important; }
 
-.chicago h4 {
+.chicago h4,
+.vox h4 {
   background: rgba(0, 0, 0, 0.5);
   display: inline-block;
-  padding: 10px 20px !important; }
+  padding: 10px 20px 5px 12px !important; }
 
 .jelly .wrap {
   padding-bottom: 25px !important;
