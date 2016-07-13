@@ -91,7 +91,7 @@ const trivia = {
       'a': `Twin Ion Engine`
     },
     {
-      'q': `What were the names of the two groups that the munchkin kids “represented” to Dorothy?`,
+      'q': `What were the names of the two groups of munchkin kids who welcomed Dorothy to Oz?`,
       'a': `Lullaby League & Lollypop Guild`
     },
     {
