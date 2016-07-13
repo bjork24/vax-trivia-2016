@@ -7,7 +7,7 @@ const trivia = {
     },
     {
       'q': `Demi Moore's ex-husband <hr/> Second-tallest building in the :usa:`,
-      'a': `Bruce Willis Towers`
+      'a': `Bruce Willis Tower`
     },
     {
       'q': `Whose cow, as legend claims, kicked over a lantern and started the Great Chicago Fire of 1871?`,
