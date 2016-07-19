@@ -1,25 +1,27 @@
+// COLOR VARIABLES
+
 $hot-pink: #FF3E96;
 $hot-blue: #0FF;
+
+// GLOBAL STYLES FOR ALL SLIDES
 
 html {
   // cursor: none !important;
 }
 
+// BIGGEST HEADERS
 h1 {
   font-size: 5em !important;
 }
 
-// Questions
-h3 {}
-
-// Answers
+// USED FOR DISPLAYING ANSWERS
 h4 {
   font-size: 1.25em !important;
   margin-top: .5em !important;
   font-style: italic !important;
 }
 
-// Question # banner
+// USED FOR DISPLAYING QUESTION NUMBERS
 h6 {
   font-size: 1em !important;
   background: rgba($hot-blue, 0.75);
@@ -29,19 +31,24 @@ h6 {
   text-shadow: 2px 2px #222 !important;
 }
 
+// USED FOR HIGHLIGHTING A WORD(S)
 dfn {
   color: $hot-pink;
 }
 
+// WRAP FOR DARKENING BG AGAINST IMAGE
 .wrap {
   background: rgba(#000, 0.6);
   display: inline-block;
   padding: 20px 30px 0 !important;
 }
 
+// GLOBAL VIDEO
 video {
   height: 85vh !important;
 }
+
+// OVERRIDES FOR SPECIFIC SLIDE GROUPS
 
 .intro  {
   .wrap {
@@ -88,4 +95,82 @@ video {
       text-align: center;
     }
   }
+}
+
+// CUSTOM STYLES FOR TEAM GENERATOR PAGE
+
+$p: '.team-generator';
+
+#{$p} {
+  
+  // TEAM DISPLAY MODULE
+
+  $m: '.m-list';
+
+  #{$m} {
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #444;
+    background: #DDD;
+
+    &__item {
+      margin: 1em;
+      flex: 0 1 200px;
+      border: 1px solid #000;
+      background: #FFF;
+      h3 {
+        margin: 0;
+        background: #555;
+        color: #FFF;
+        padding: .2em .5em;
+        text-transform: uppercase;
+      }
+    }
+
+    &.empty {
+      display: none;
+    }
+
+  }
+
+  // FORM DISPLAY MODULE
+
+  $m: '.m-form';
+
+  #{$m} {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    max-width: 40em;
+    padding: 1em;
+
+    &__randomize,
+    &__size,
+    &__min,
+    &__button {
+      margin: 1em;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    &__textarea {
+      width: 100%;
+      height: 200px;
+      border: 1px solid #222;
+    }
+
+    &__button {
+      border: 0;
+      background: #CCC;
+      color: #000;
+      border-radius: 0;
+      display: inline-block;
+      padding: .5em 1em;
+    }
+
+  }
+
 }

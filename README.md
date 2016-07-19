@@ -3,7 +3,8 @@
 1. Hitting the `return` key will play any media objects on the current slide
 2. Store question/answer text in one place (`js/trivia.js`) so you don't have to copy paste in HTML
 3. Localized the Google fonts because of shitty internet
-4. Hide the cursor by default
+4. Hide the cursor by default (turn that on in the `_custom.scss`)
+5. [Add a team generator page](http://localhost:8000/team-generator.html)
 
 ----
 

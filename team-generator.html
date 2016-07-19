@@ -1,0 +1,160 @@
+<head>
+  <title>Team Generator</title>
+  <link rel="stylesheet" href="css/reveal.css">
+</head>
+
+<body class="team-generator">
+
+  <script type="text/html" id="chunk-template">
+
+    <div class="m-list" id="chunk-list">
+    
+      <% chunks.forEach((chunk, i) => { %>
+        <div class="m-list__item">
+          <h3>Team <%= i+1 %></h3>
+          <ol>
+            <% chunk.forEach(item => { %>
+              <li><%= item %></li>
+            <% }) %>
+          </ol>
+        </div>
+      <% }) %>
+
+    </div>
+
+  </script>
+
+  <div class="m-form">
+  
+    <textarea class="m-form__textarea" id="list" placeholder="Place list here with new items on each line">justin.glow@voxmedia.com
+casey.kolderup@voxmedia.com
+guillermo.esteves@voxmedia.com
+nancy.seay@voxmedia.com
+melissa.bell@vox.com
+michael.case@voxmedia.com
+david.yee@voxmedia.com
+yuri.victor@voxmedia.com
+scott.kellum@voxmedia.com
+ryan@voxmedia.com
+luigi.ray-montanez@voxmedia.com
+zachariah.mattheus@voxmedia.com
+david.zhou@voxmedia.com
+curtis.schiewek@voxmedia.com
+ben.lee@voxmedia.com
+jukrisha.kingwood@voxmedia.com
+aidan.feay@voxmedia.com
+frank.bi@theverge.com
+casey.miller@voxmedia.com
+marie.connelly@voxmedia.com
+ben.alt@voxmedia.com
+vincent@eater.com
+dani.balenson@voxmedia.com
+ramla.mahmood@voxmedia.com
+kainaz.amaria@voxmedia.com
+ally.palanzi@voxmedia.com
+eric.binmore@voxmedia.com
+tessa.harmon@voxmedia.com
+elite.truong@voxmedia.com
+trei@voxmedia.com
+kelsey.scherer@voxmedia.com
+ian.carrico@voxmedia.com
+courtney.leonard@voxmedia.com
+ashley.twaddell@voxmedia.com
+corri.skinner@voxmedia.com
+josh.larson@voxmedia.com
+andrew.amato@voxmedia.com
+josh.laincz@voxmedia.com
+blake.thomson@voxmedia.com
+pamela.assogba@voxmedia.com
+katie.kovalcin@voxmedia.com
+alisha.ramos@voxmedia.com
+billy.ceskavich@voxmedia.com
+edward.clinton@voxmedia.com
+harold.neal@voxmedia.com
+jon.douglas@voxmedia.com
+ngan@voxmedia.com
+shaun.mcilroy@voxmedia.com
+cory.williams@voxmedia.com
+john.evans@voxmedia.com
+michele.cynowicz@voxmedia.com
+katie.odowd@voxmedia.com
+jason.santamaria@voxmedia.com
+kyle.keller@vox.com
+michael@voxmedia.com
+adam.baumgartner@voxmedia.com
+warren.schultheis@vox.com
+huge.ma@voxmedia.com
+holly.gressley@voxmedia.com
+allison.mchenry@voxmedia.com
+lauren.rabaino@voxmedia.com
+andrew.johnson@voxmedia.com
+brian.anderson@voxmedia.com
+kavya.sukumar@voxmedia.com
+cedric.chan@voxmedia.com
+lockhart.steele@voxmedia.com
+blaine.sheldon@voxmedia.com
+greg.macwilliam@voxmedia.com
+joe.alicata@voxmedia.com
+mike.hadgis@voxmedia.com
+marty@voxmedia.com
+jim@voxmedia.com
+alexis@voxmedia.com
+lindsay.nelson@voxmedia.com
+megan.walton@voxmedia.com
+nicole.zhu@voxmedia.com
+jessica.paoli@voxmedia.com
+matt.sullivan@voxmedia.com
+ryan.mark@voxmedia.com
+dieter@theverge.com
+britt@racked.com
+mercedes@curbed.com
+georgia.cowley@voxmedia.com
+sanette.tanaka@voxmedia.com
+bohee.kim@voxmedia.com
+pablo@voxmedia.com
+miriam.nadler@voxmedia.com
+tyson.whiting@voxmedia.com
+yian.shang@voxmedia.com
+pietro.passarelli@voxmedia.com
+heather.savatta@voxmedia.com</textarea>
+
+    <div class="m-form__randomize">
+      <input type="checkbox" id="randomize" checked> <label for="randomize">Randomize?</label>
+    </div>
+    
+    <div class="m-form__size">
+      <label for="size">Team size:</label>
+      <select id="size">
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7" selected>7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+    </div>
+
+    <div class="m-form__min">
+      <label for="minimum">Minimum:</label>
+      <select id="minimum">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5" selected>5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+      </select>
+    </div>
+
+    <button class="m-form__button" onclick="generate()">Generate</button>
+
+  </div>
+
+  <script src="lib/js/lodash.js"></script>
+  <script src="team-generator.js"></script>
+
+</body>
